@@ -1,4 +1,4 @@
-Autonomous Driving – Behavioral Cloning
+Autonomatic Driving
 =======================================
 
 Approach
@@ -25,8 +25,11 @@ Environment setup
   pip install --upgrade pip
   pip install -r package_list.txt
   ```
+- Install the unity engine car simulator from: https://github.com/udacity/self-driving-car-sim
+- 
 Training
 --------
+- Record 5+ runs on the first track and save for training data.
 - Basic run with defaults:
   ```
   python src/train.py --data-dir data --output artifacts/model.keras --plots-dir artifacts
